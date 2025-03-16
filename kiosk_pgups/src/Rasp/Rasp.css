@@ -1,0 +1,14 @@
+.your_css_selector {
+    background-color: hsla(330, 89%, 57%, 1);
+    background-image: radial-gradient(circle at 9% 79%, hsla(336, 84%, 97%, 1) 9%, transparent 54%), radial-gradient(circle at 37% 30%, hsla(204, 99%, 55%, 1) 9%, transparent 54%), radial-gradient(circle at 17% 14%, hsla(278, 71%, 80%, 1) 9%, transparent 54%), radial-gradient(circle at 27% 76%, hsla(325, 68%, 90%, 1) 9%, transparent 54%), radial-gradient(circle at 67% 23%, hsla(355, 68%, 61%, 1) 9%, transparent 54%);
+    background-blend-mode: normal, normal, normal, normal, normal;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.classtest1{
+    z-index: 10;
+    position: absolute;
+}
