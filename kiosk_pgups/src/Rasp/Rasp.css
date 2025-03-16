@@ -1,6 +1,6 @@
 .your_css_selector {
-    background-color: hsla(330, 89%, 57%, 1);
-    background-image: radial-gradient(circle at 9% 79%, hsla(336, 84%, 97%, 1) 9%, transparent 54%), radial-gradient(circle at 37% 30%, hsla(204, 99%, 55%, 1) 9%, transparent 54%), radial-gradient(circle at 17% 14%, hsla(278, 71%, 80%, 1) 9%, transparent 54%), radial-gradient(circle at 27% 76%, hsla(325, 68%, 90%, 1) 9%, transparent 54%), radial-gradient(circle at 67% 23%, hsla(355, 68%, 61%, 1) 9%, transparent 54%);
+    background-color: hsla(271, 0%, 100%, 1);
+    background-image: radial-gradient(circle at 3% 98%, hsla(259, 100%, 79%, 1) 2%, transparent 40.19679073913856%), radial-gradient(circle at 98% 99%, hsla(353, 88%, 67%, 1) 2%, transparent 48.48595825757849%), radial-gradient(circle at 74% 101%, hsla(315, 86%, 96%, 1) 2%, transparent 56.32640926519297%), radial-gradient(circle at 49% 100%, hsla(294, 94%, 72%, 1) 2%, transparent 54.12274232108472%), radial-gradient(circle at 26% 100%, hsla(58, 68%, 60%, 1) 7.439720470235094%, transparent 53.15013235065794%);
     background-blend-mode: normal, normal, normal, normal, normal;
     width: 100vw;
     height: 100vh;

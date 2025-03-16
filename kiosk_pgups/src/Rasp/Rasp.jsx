@@ -1,17 +1,39 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Rasp.css'
+import RealTimeClock from '../RealTimeClock.jsx';
 function Rasp() {
     const navigate = useNavigate();
-    const handleClick = () => {
+    const handleClick1 = () => {
         navigate('/main');
+    };
+    const handleClick2 = () => {
+        navigate('/map');
+    };
+    const handleClick3 = () => {
+        navigate('/info');
     };
     return (
         <>
             <div className="your_css_selector"></div>
-            <h1 className="classtest1">Страница Расписание</h1>
-            <p className="classtest1">Здесь будет содержимое страницы расписания.</p>
-            <button className="classtest1" onClick={handleClick}>Назад</button>
+            <div className="frame">
+                <RealTimeClock/>
+                <div className="menu">
+                    <button className="menubutton" onClick={handleClick1}>Новости</button>
+                    <button className="selectButton">Расписание</button>
+                    <button className="menubutton" onClick={handleClick2}>Карта</button>
+                    <button className="menubutton" onClick={handleClick3}>Инфо</button>
+                </div>
+                <div className="toggle-container">
+                    <p>A</p>
+                    <button className="toggle-button">文</button>
+                </div>
+                <div className="search-container">
+                    <input type="text" id="search" placeholder="Поиск..."/>
+                    <div className="divider"></div>
+                    <button className="Search" onClick="searchFunction()"></button>
+                </div>
+            </div>
+
         </>
     );
 }
