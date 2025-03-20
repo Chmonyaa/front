@@ -15,8 +15,8 @@ function Map() {
     const handleClick3 = () => navigate('/info');
     const [selectedRoom, setSelectedRoom] = useState(null);
     const fixedRooms = [
-        { id: 1, x: 1320, y: 778, label: "1-217", width: 69, height: 42 },
-        { id: 2, x: 1390, y: 843, label: "1-216", width: 85, height: 47},
+        { id: 1, x: 1330, y: 852, label: "1-217", width: 72, height: 42 },
+        { id: 2, x: 1405, y: 919, label: "1-216", width: 87, height: 47},
     ];
     const handleRoomClick = (id) => {
         setSelectedRoom(id === selectedRoom ? null : id);
